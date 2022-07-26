@@ -3,22 +3,18 @@ get_header();
 ?>
 
 	<body>
-	<main>
-		<h1>Log in</h1>
-		<p>Log in with your data that you received from the photographer</p>
+	<main class="container">
+		<h1 class="container_title">Log in</h1>
+		<p class="container_paragraph">Log in with your data that you received from the photographer</p>
 
-		<section class="flex flex-inputs">
-			<label>
-				<input type="text" name="email" class="input-mail" placeholder="E-mail">
-			</label>
-			<label>
-				<input type="text" name="password" class="input-password" placeholder="Password">
-			</label>
-		</section>
+		<form class="container_form-flex form_inputs-flex">
+				<input type="text" name="email" class="form-input input-mail" placeholder="E-mail">
+				<input type="text" name="password" class="form-input input-password" placeholder="Password">
+		</form>
 
-		<section class="flex flex-inline">
-			<a href="#">Forgot password?</a>
-			<button class="button">Log in</button>
+		<section class="container_section-flex flex-inline">
+			<a href="#" class="flex-inline-reminder">Forgot password?</a>
+			<button class="flex-inline-button">Log in</button>
 		</section>
 	</main>
 	</body>

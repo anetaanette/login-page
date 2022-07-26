@@ -3,12 +3,11 @@
 * It will generate all fonts and css code which you should place in the project.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@400;500&display=swap");
 
 :root {
   --font-sans-serif: "font-famil-name-sans-serif";
   --font-monospace: "font-famil-name-monospace";
-  --font-poppins: 'Poppins', sans-serif;
-  --font-open-sans: 'Open Sans', sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
 }
