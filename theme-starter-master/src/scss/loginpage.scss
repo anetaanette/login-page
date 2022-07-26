@@ -11,11 +11,11 @@ body {
   justify-content: center;
   align-items: center;
 
-  > .container {
+  .form {
 	width: 32rem;
 	height: 34rem;
 	padding: 3rem;
-	background-color: rgba(255, 255, 255, 60%);
+	background-color: var(--bg);
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -24,38 +24,38 @@ body {
 	border-radius: 1rem;
 	margin: 0;
 
-	> .container_title {
+	&_title {
 	  font-size: 3rem;
 	  margin: 0;
-	  font-family: 'Poppins', sans-serif;
+	  font-family: "Poppins", sans-serif;
 	}
-	> .container_paragraph {
+	&_paragraph {
 	  font-size: 1.3rem;
 	}
 
-	> .form_inputs-flex {
+	&_inputs {
 	  display: flex;
 	  flex-direction: column;
 	  gap: 1rem;
 
-		> .form-input {
+		&-input {
 		  height: 3rem;
 		  width: 25rem;
 		  padding: 1rem;
 		  border: 1px solid gray;
 		  border-radius: 0.5rem;
 		  color: black;
-		  font-family: 'Open Sans', sans-serif;
+		  font-family: "Open Sans", sans-serif;
 	  }
 	}
-	> .flex-inline {
+	&_inline {
 	  display: flex;
 	  gap: 10.5rem;
-	  > .flex-inline-reminder {
+	  &-reminder {
 		color: black;
 		font-size: 1.1rem;
 	  }
-	  > button {
+	  &-button {
 		height: 3rem;
 		width: 7rem;
 		background: black;
