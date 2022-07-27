@@ -24,16 +24,16 @@ body {
 	border-radius: 1rem;
 	margin: 0;
 
-	&_title {
+	&__title {
 	  font-size: 3rem;
 	  margin: 0;
 	  font-family: "Poppins", sans-serif;
 	}
-	&_paragraph {
+	&__paragraph {
 	  font-size: 1.3rem;
 	}
 
-	&_inputs {
+	&__inputs {
 	  display: flex;
 	  flex-direction: column;
 	  gap: 1rem;
@@ -48,7 +48,7 @@ body {
 		  font-family: "Open Sans", sans-serif;
 	  }
 	}
-	&_inline {
+	&__inline {
 	  display: flex;
 	  gap: 10.5rem;
 	  &-reminder {
